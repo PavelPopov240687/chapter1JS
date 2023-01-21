@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>iRock-Виртуальный Rock</title>
+</head>
+<body onload="alert('Hello, I am your pet rock.');">
+<div style="margin-top:100px; text-align:center">
+<img id="rockImg" src="rock.png" alt="iRock">
+<script type="text/javascript">
+function touchRock(){
+var userName=prompt("Как Вас зовут?", "Введите Ваше имя.");
+if (userName){alert("Рады Вас видеть, "+userName+".")
+document.getElementById("rockImg").src="maxresdefault.jpg"}}
+</script>
+</div>
+</body>
+</html>
